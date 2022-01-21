@@ -1,2 +1,4 @@
-+ vue-router
++ core
 + pinia
++ windicss
++ vue-router
