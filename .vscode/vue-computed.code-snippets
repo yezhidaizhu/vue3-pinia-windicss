@@ -1,0 +1,12 @@
+{
+  // edm 快捷键，快速创建module需要的字段
+  // Example:
+  "const computed sfc": {
+    "scope": "javascript,typescript",
+    "prefix": "computed",
+    "body": [
+      "const ${1:foo} = computed(()=>${2});",
+    ],
+    "description": "input computed"
+  }
+}

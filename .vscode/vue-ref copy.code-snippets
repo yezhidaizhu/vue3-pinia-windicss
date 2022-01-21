@@ -1,0 +1,12 @@
+{
+  // edm 快捷键，快速创建module需要的字段
+  // Example:
+  "const ref sfc": {
+    "scope": "javascript,typescript",
+    "prefix": "ref",
+    "body": [
+      "const ${1:foo} = ref(${2});",
+    ],
+    "description": "input ref"
+  }
+}

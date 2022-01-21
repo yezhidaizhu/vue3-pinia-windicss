@@ -1,0 +1,12 @@
+{
+  // edm 快捷键，快速创建module需要的字段
+  // Example:
+  "const useRouter sfc": {
+    "scope": "javascript,typescript",
+    "prefix": "useRouter",
+    "body": [
+      "const router = useRouter();",
+    ],
+    "description": "input router"
+  }
+}

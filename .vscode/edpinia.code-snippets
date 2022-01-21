@@ -1,0 +1,18 @@
+{
+  // edm 快捷键，快速创建module需要的字段
+  // Example:
+  "vuex edm sfc": {
+    "scope": "javascript,typescript",
+    "prefix": "edm",
+    "body": [
+      "import { defineStore } from 'pinia';\n",
+      "export default defineStore('${1:piniaId}', {",
+      "\tstate: () => ({\n",
+      "\t}),",
+      "\tactions: {\n",
+      "\t}",
+      "});",
+    ],
+    "description": "input vuex module"
+  }
+}
